@@ -40,11 +40,14 @@ public class Main {
         else if (80 >= firstNumber && firstNumber > 71) {
             System.out.print("I'm not sure");
         }
-        
+        else if (90 >= firstNumber && firstNumber > 81) {
+            System.out.print("It is certain");
+        }
+        else if (100 >= firstNumber && firstNumber > 91) {
+            System.out.print("Probably not");
+        }
 
-
-
-
+        else System.out.println("To high/low of a number");
 
     }
 }
