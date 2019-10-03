@@ -48,6 +48,5 @@ public class Main {
         }
 
         else System.out.println("To high/low of a number");
-
     }
 }
