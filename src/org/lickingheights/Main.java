@@ -28,9 +28,19 @@ public class Main {
         else if (40 >= firstNumber && firstNumber > 31) {
             System.out.print("That is very unlikely");
         }
+        else if (50 >= firstNumber && firstNumber > 41) {
+            System.out.print("Possible");
+        }
+        else if (60 >= firstNumber && firstNumber > 51) {
+            System.out.print("Not that likely");
+        }
+        else if (70 >= firstNumber && firstNumber > 61) {
+            System.out.print("Likely");
+        }
+        else if (80 >= firstNumber && firstNumber > 71) {
+            System.out.print("I'm not sure");
+        }
         
-
-
 
 
 
